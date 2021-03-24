@@ -1,0 +1,39 @@
+$d-primary: #0060ff;
+$d-white: #ffffff;
+$d-black: #262523;
+$d-gray-1: #f5f3f1;
+$d-gray-2: #e6e2dc;
+$d-gray-3: #bfb8af;
+$d-gray-4: #8f887e;
+$d-gray-5: #767067;
+$d-gray-6: #615c54;
+$d-gray-7: #46433d;
+$d-accent-1: #ffe32f;
+$d-accent-2: #fec037;
+$d-accent-3: #fe8623;
+$d-accent-4: #ee532e;
+$d-accent-5: #00a310;
+$d-error: #ce3800;
+$d-success: #00800d;
+$d-svg-icon: #8f887e;
+$d-gray-disabled: #faf9f8;
+
+:export {
+  dPrimary: $d-primary;
+  dWhite: $d-white;
+  dBlack: $d-black;
+  dGray1: $d-gray-1;
+  dGray2: $d-gray-2;
+  dGray3: $d-gray-3;
+  dGray4: $d-gray-4;
+  dGray5: $d-gray-5;
+  dGray6: $d-gray-6;
+  dGray7: $d-gray-7;
+  dAccent1: $d-accent-1;
+  dAccent2: $d-accent-2;
+  dAccent3: $d-accent-3;
+  dAccent4: $d-accent-4;
+  dAccent5: $d-accent-5;
+  dError: $d-error;
+  dSuccess: $d-success;
+}

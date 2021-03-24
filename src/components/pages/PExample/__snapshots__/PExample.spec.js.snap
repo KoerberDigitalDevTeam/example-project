@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PExample Should render PExample 1`] = `
+<tmainpage-stub title="examplePage.title" data-testid="example-page">
+  <div class="p-example__content" data-testid="example-page-content">
+    examplePage.content
+  </div>
+</tmainpage-stub>
+`;

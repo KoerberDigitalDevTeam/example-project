@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OAppLayout Template: Should render a OAppLayout 1`] = `
+<v-app-stub id="app" class="o-app-layout__app" data-testid="app-layout">
+  <omainmenu-stub username="Admin" menuitems="[object Object]" data-testid="app-layout-main-menu"></omainmenu-stub>
+  <v-main-stub tag="main">
+    <v-container-stub tag="div" fluid="true" user-name="Admin" class="o-app-layout__page-container" data-testid="app-layout-page-content">
+      <router-view-stub name="default"></router-view-stub>
+    </v-container-stub>
+  </v-main-stub>
+</v-app-stub>
+`;

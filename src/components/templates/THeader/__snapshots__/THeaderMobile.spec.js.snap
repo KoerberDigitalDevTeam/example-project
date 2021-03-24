@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`THeaderMobile Template: Should render THeaderMobile 1`] = `
+<div class="theader-mobile--sticky">
+  <div class="theader-mobile">
+    <abutton-stub primary="true" tertiary="true" color="dWhite" icon="" data-testid="theader-mobile-button" class="theader-mobile__button mr-6">
+      <v-icon-stub>mdi-menu</v-icon-stub>
+    </abutton-stub>
+    <v-list-item-title-stub class="theader-mobile__title" data-testid="theader-mobile-title">
+      <h4>Test title</h4>
+    </v-list-item-title-stub>
+  </div>
+</div>
+`;

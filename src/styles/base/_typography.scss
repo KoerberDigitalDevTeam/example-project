@@ -1,0 +1,82 @@
+$font-root: '../assets/fonts/';
+
+@font-face {
+  font-family: 'Koerber';
+  src: url($font-root + 'Koerber-Regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url($font-root + 'Koerber-Regular.woff')
+      format('woff'); /* Safari, Android, iOS, IE9 */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Koerber';
+  src: url($font-root + 'Koerber-Light.woff2') format('woff2'),
+    /* Super Modern Browsers */ url($font-root + 'Koerber-Light.woff')
+      format('woff'); /* Safari, Android, iOS, IE9 */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Koerber';
+  src: url($font-root + 'Koerber-Semibold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url($font-root + 'Koerber-Semibold.woff')
+      format('woff'); /* Safari, Android, iOS, IE9 */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Koerber';
+  src: url($font-root + 'Koerber-Bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url($font-root + 'Koerber-Bold.woff')
+      format('woff'); /* Safari, Android, iOS, IE9 */
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: Koerber, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 72px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}

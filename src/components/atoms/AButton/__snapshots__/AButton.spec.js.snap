@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AButton Template: Should render a AButton 1`] = `<v-btn-stub color="primary" rounded="true" tag="button" activeclass="" type="button" primary="true" class="a-btn" data-testid="btn"></v-btn-stub>`;

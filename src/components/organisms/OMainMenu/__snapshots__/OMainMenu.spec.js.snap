@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OMainMenu Template: Header Should render OMainMenu 1`] = `
+<div>
+  <anavigationdrawer-stub app="" color="dBlack" class="o-main-menu__a-navigation-drawer" data-testid="main-menu">
+    <div class="o-main-menu__header">
+      <div class="o-main-menu__header-logo" data-testid="main-menu-header">
+        <div><img src="" alt="logo" class="o-main-menu__logo" data-testid="main-menu-app-logo"></div>
+      </div>
+      <v-list-item-stub activeclass="" tag="div" class="o-main-menu__header-user-profile">
+        <v-list-item-avatar-stub height="33" minwidth="33" width="33" size="40" class="o-main-menu__header-user-avatar" data-testid="main-menu-profile-avatar">
+          <v-icon-stub color="dWhite" large="">mdi-account-circle</v-icon-stub>
+        </v-list-item-avatar-stub>
+        <v-list-item-title-stub class="o-main-menu__user" data-testid="main-menu-user-name">
+
+        </v-list-item-title-stub>
+        <abutton-stub primary="true" tertiary="true" color="dWhite" icon="" class="o-main-menu__collapse-menu-button" style="display: none;" data-testid="main-menu-collapse-btn">
+          <v-icon-stub>mdi-chevron-left</v-icon-stub>
+        </abutton-stub>
+      </v-list-item-stub>
+    </div>
+    <v-divider-stub></v-divider-stub>
+    <v-list-stub tag="div" dense="true" class="o-main-menu__list">
+      <v-list-item-stub activeclass="o-main-menu__item--active" link="true" to="/test" tag="div" class="o-main-menu__item" data-testid="main-menu-menu-item">
+        <v-list-item-icon-stub class="m-menu_items-icon">
+          <v-icon-stub dense="" data-testid="main-menu-menu-item-icon">test</v-icon-stub>
+        </v-list-item-icon-stub>
+        <v-list-item-content-stub>
+          <v-list-item-title-stub class="o-main-menu__item-title" data-testid="main-menu-menu-item-title">
+            test
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+      <v-list-item-stub activeclass="o-main-menu__item--active" link="true" to="/test2" tag="div" class="o-main-menu__item" data-testid="main-menu-menu-item">
+        <v-list-item-icon-stub class="m-menu_items-icon">
+          <v-icon-stub dense="" data-testid="main-menu-menu-item-icon">test2</v-icon-stub>
+        </v-list-item-icon-stub>
+        <v-list-item-content-stub>
+          <v-list-item-title-stub class="o-main-menu__item-title" data-testid="main-menu-menu-item-title">
+            test
+          </v-list-item-title-stub>
+        </v-list-item-content-stub>
+      </v-list-item-stub>
+    </v-list-stub>
+  </anavigationdrawer-stub>
+</div>
+`;

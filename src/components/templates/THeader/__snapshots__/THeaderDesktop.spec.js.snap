@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`THeaderDesktop Should render THeaderDesktop 1`] = `
+<div class="theader-desktop__container">
+  <h3 class="theader-desktop__title" data-testid="theader-desktop-title">Title</h3>
+</div>
+`;
